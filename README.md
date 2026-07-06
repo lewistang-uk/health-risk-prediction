@@ -48,7 +48,7 @@ Leaderboard score: **0.933**
 
 - Built a preprocessing pipeline with custom feature engineering
 - Created two features following EDA which carried predictive value
-- Compared four classification models using balanced accuracy 
+- Compared four classification models for imbalanced classes using balanced accuracy 
 - Used permutation importance to find key predictors
 
 ## Future Improvements
