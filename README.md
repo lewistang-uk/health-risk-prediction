@@ -14,15 +14,7 @@ Source: https://www.kaggle.com/competitions/playground-series-s6e7/data
 
 ## Workflow
 
-EDA
-↓
-Data Cleaning + Feature Engineering
-↓
-Baseline + Model Selection
-↓
-Hyperparameter Tuning
-↓
-Evaluation
+EDA -> Data Cleaning + Feature Engineering -> Baseline + Model Selection -> Hyperparameter Tuning -> Evaluation
 
 ## Features Created
 
