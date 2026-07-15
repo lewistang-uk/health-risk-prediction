@@ -41,8 +41,8 @@ Leaderboard score: **0.933**
 1. Sleep duration
 2. Stress level
 3. BMI
-4. Activity × duration
-5. Missing value count
+4. Activity × duration (created)
+5. Missing value count (created)
 
 ## Summary
 
