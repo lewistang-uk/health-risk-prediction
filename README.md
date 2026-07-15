@@ -2,7 +2,7 @@
 
 ## Overview
 
-Predict a student's health risk from lifestyle and physiological features. Part of Kaggle's Playground Series (Season 6, Episode 7).
+Build an end-to-end pipeline to predict a student's health risk from lifestyle and physiological features. Part of Kaggle's Playground Series (Season 6, Episode 7).
 
 ## Dataset
 
