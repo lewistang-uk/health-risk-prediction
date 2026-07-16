@@ -11,6 +11,7 @@ Source: https://www.kaggle.com/competitions/playground-series-s6e7/data
 - Number of observations: 690088
 - Number of features: 13 (1 nominal, 5 ordinal, 7 numeric)
 - Target classes: fit (39803), at-risk (592561), unhealthy (57724)
+- Total missing values: 449496
 
 ## Workflow
 
@@ -25,12 +26,12 @@ EDA -> Data Cleaning + Feature Engineering -> Baseline + Model Selection -> Hype
 
 | Model | Balanced Accuracy |
 |-------|------------------:|
-| Logistic Regression | 0.879 |
-| Random Forest | 0.929 |
-| HistGradientBoosting | 0.937 |
+| LogisticRegression | 0.879 |
+| RandomForestClassifier | 0.929 |
+| HistGradientBoostingClassifier | 0.937 |
 | XGBoost | 0.847 |
 
-Final model: HistGradientBoostingClassifier
+Final model: HistGradientBoostingClassifier (highest balanced accuracy, quicker to train than RandomForestClassifier on large dataset)
 
 ## Results
 
@@ -42,7 +43,7 @@ Leaderboard score: **0.933**
 2. Stress level
 3. BMI
 4. Activity × duration (created)
-5. Missing value count (created)
+5. Missing value count per observation (created)
 
 ## Summary
 
