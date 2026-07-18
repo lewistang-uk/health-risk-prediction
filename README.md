@@ -35,7 +35,10 @@ Final model: HistGradientBoostingClassifier (highest balanced accuracy, quicker 
 
 ## Results
 
+Validation score: **0.937**
 Leaderboard score: **0.933**
+
+Since the leaderboard test set is not available, a slight variation in balanced accuracy is expected.
 
 ## Key Predictors
 
