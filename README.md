@@ -19,8 +19,8 @@ EDA -> Data Cleaning + Feature Engineering -> Baseline + Model Selection -> Hype
 
 ## Features Created
 
-- Missing value count per row
-- Activity (encoded) × exercise duration
+- Missing value count per observation (a prominent feature of the dataset)
+- Activity (encoded) × exercise duration (a measure of exercise intensity)
 
 ## Models Compared
 
@@ -39,11 +39,13 @@ Leaderboard score: **0.933**
 
 ## Key Predictors
 
-1. Sleep duration
-2. Stress level
-3. BMI
-4. Activity × duration (created)
-5. Missing value count per observation (created)
+| Feature | Permutation Importance |
+|---------|-----------------------:|
+| Sleep Duration | 0.394734 |
+| Stress Level | 0.388705 |
+| BMI | 0.071090 |
+| Activity x Duration | 0.062929 |
+| Missing Value Count | 0.061296 |
 
 ## Summary
 
